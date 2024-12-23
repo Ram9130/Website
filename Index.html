@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>🎉 Happy Birthday! 🎉</title>
+    <title>Happy Birthday!</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -16,11 +16,10 @@
         }
 
         header {
-            background-color: #ffb6c1;
-            color: #ffffff;
+            background-color: #5a2a77;
+            color: white;
             padding: 20px;
-            font-size: 3em;
-            text-align: center;
+            font-size: 2.5em;
         }
 
         .birthday-container {
@@ -31,28 +30,30 @@
             height: 100vh;
             background: #ffe0b3;
             padding: 20px;
-            position: relative;
         }
 
         .wish-text {
-            font-size: 2.5em;
+            font-size: 2em;
             font-weight: bold;
             color: #ff69b4;
-            margin: 30px 0;
+            margin: 20px 0;
             text-shadow: 2px 2px 8px rgba(255, 105, 180, 0.5);
         }
 
-        .emoji {
-            font-size: 3em;
+        .cake-img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
         }
 
         .decorative {
-            font-size: 1.8em;
+            font-size: 1.5em;
             color: #e63946;
             text-transform: uppercase;
             letter-spacing: 2px;
             margin: 10px 0;
-            font-weight: bold;
         }
 
         .balloons {
@@ -62,7 +63,7 @@
             transform: translateX(-50%);
             display: flex;
             justify-content: space-between;
-            width: 220px;
+            width: 200px;
         }
 
         .balloon {
@@ -95,58 +96,28 @@
                 transform: translateY(0);
             }
         }
-
-        .sparkles {
-            position: absolute;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            animation: sparkle 1.5s infinite alternate;
-        }
-
-        @keyframes sparkle {
-            0% {
-                opacity: 0.7;
-                transform: scale(1) rotate(0deg);
-            }
-            100% {
-                opacity: 1;
-                transform: scale(1.2) rotate(360deg);
-            }
-        }
-
     </style>
 </head>
 <body>
-
     <header>
-        🎉🎂 **Happy Birthday Manali !** 🎂🎉
+        🎉 🎂 Happy Birthday Manali (Rupali) 🙂 🎂 🎉
     </header>
 
     <div class="birthday-container">
-        <div class="emoji">
-            🎈🎁🎉🎂🥳
-        </div>
+        <img src="https://via.placeholder.com/300x300.png?text=Happy+Birthday+Cake" alt="Birthday Cake" class="cake-img">
         <div class="wish-text">
-            Wishing you a fantastic day filled with joy, laughter, and endless cake! 🎉🎂
+            Wishing you a day filled with love, laughter, and cake!
         </div>
 
         <div class="decorative">
-            May all your dreams come true! 🌟
+            May your year be as sweet as your smile!
         </div>
 
-        <!-- Floating Balloons -->
         <div class="balloons">
             <div class="balloon"></div>
             <div class="balloon"></div>
             <div class="balloon"></div>
         </div>
-
-        <!-- Sparkles Effect -->
-        <div class="sparkles">
-            ✨ ✨ ✨
-        </div>
     </div>
-
 </body>
 </html>
